@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />  <!-- 使网页在不同设备上自适应 -->  
     <title>万汉：合成实验室</title>
     <style>
+     a {
+      text-decoration: none;
+     }
     .dati {
       display: flex; /* 使用Flexbox布局使其子项横向排列 */  
       margin: 0; /* 去掉浏览器默认边距 */  
@@ -542,13 +545,13 @@
 
     <script>  
     // 创建雪花的数量  
-    const snowflakeCount = 5;  
+    const snowflakeCount = 10;  
 
     // 创建雪花元素并添加到页面  
     for (let i = 0; i < snowflakeCount; i++) {  
         const snowflake = document.createElement('div');  
         snowflake.classList.add('snowflake');  
-        snowflake.innerHTML = '❄'; // 雪花的内容可以是字符或图像  
+        snowflake.innerHTML = '🧧'; // 雪花的内容可以是字符或图像  
 
         // 随机设置位置、动画持续时间和延迟  
         snowflake.style.left = Math.random() * 100 + 'vw';  
